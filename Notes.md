@@ -56,7 +56,7 @@ When the determinant of a 3D matrix is 0 then the columns of the matrix are line
 
 Let X be a vector matrix of variables, V be a matrix of constants then, 
 
-                 AX=V  where A is also a constant matrix.
+                                 AX=V  where A is also a constant matrix.
                  
 So while doing the geometric interpretation of this system of equations we see that X is some vector matrix which after transformation (A corresponds to some linear transformation) lands on V.
 
@@ -85,7 +85,7 @@ When two vectors are pointing in the same direction the dot product is positive,
 Any time there is a linear transformation whose output space is a number line , no matter how it was defined there is going to be some unique vector V corresponding to that transformation.
 
 
-##### Duality
+#### Duality
 Duality is natural but surprising correspondence between two types of mathematical things.
 
 The dual of some vector from a space to some one dimension is a certain vector in that space.
@@ -104,3 +104,22 @@ Measuring the "perpendicularity" is the same as measuring the area between the p
 
 The main motivation behind defining cross product is that the duality between planes and vectors perpendicular to them in 3D allows us to identify complicated mathematical-objects with vectors.
 
+
+#### Cramer's Rule
+Cramer’s Rule uses determinants to solve for a solution to the equation Ax=b, when A is a square matrix.
+
+Cramer’s Rule only works on square matrices that have a non-zero determinant and a unique solution.
+
+#### Change of Basis
+
+i hat and j hat are the two basis vectors of the standard coordinate system.
+
+Change of basis is a technique applied to finite-dimensional vector spaces in order to rewrite vectors in terms of a different set of basis elements. It is useful for many types of matrix computations in linear algebra and can be viewed as a type of linear transformation.
+
+#### Eigenvector and eigenvalue
+
+An eigenvector is a vector whose direction remains unchanged when a linear transformation is applied to it.
+
+                                             Av = λv
+
+In linear algebra, an eigenvector or characteristic vector of a linear transformation is a nonzero vector that changes at most by a scalar factor when that linear transformation is applied to it. The corresponding eigenvalue, often denoted by \lambda, is the factor by which the eigenvector is scaled.
